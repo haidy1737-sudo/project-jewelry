@@ -67,14 +67,17 @@ background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.7;
     background-color:#e9efff;
     color: #070069;
-     border:1px solid #74b0f1;
+    border:1px solid #74b0f1;
 }
 .i1{
     font-size: 30px;
     color: #ffffff;
     margin-left: 25px;
     margin-top: 13;
-     float: left;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    z-index: 200;
 } 
 .search{
     border: none;
@@ -1000,4 +1003,7 @@ color:#4F6FD9;}
 .footer-i:hover{
     background-color:#ffffff;
     transition:0.3; 
+}
+i{
+    cursor: pointer;
 }
